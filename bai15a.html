@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Your Message</legend>
+            <table>
+                <tr>
+                    <td><label for="emailTo">To</label>
+                    <input type="text" name="txtTo" readonly="readonly"  id=" emailTo" size="20" value="Example cafe"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="emailform">Your Email</label>
+                        <input type="text" name="txtyour" readonly="readonly" id="emailform" size="20"  />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="emailbody">Message</label>
+                    </td>
+                    <td>
+                        <textarea name="txtbody" id="emailbody" cols="50" rows="10" tabindex="2"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>How you found us</legend>
+         <table>
+             <tr>
+                 <td>How did you hear of us</td>
+                 <td>
+                   <select>
+                       <option value="1">Google</option>
+                       <option value="2">coccoc</option>
+                       <option value="3">Facebook</option>
+                   </select> 
+                 </td>
+             </tr>
+             <tr>
+                 <td><label for=" check">Newslletes</label></td>
+                 <td><input type="checkbox" id="check" />Ensure this box is checked if you would like to receive email update</td>
+             </tr>
+         </table>
+
+        </fieldset>
+        <tr>
+            <td> <input type="submit" value="Send message" /></td>
+        </tr>
+
+</form>
+</body>
+</html>
